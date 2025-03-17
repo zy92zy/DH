@@ -1,0 +1,58 @@
+{
+    "1": {
+        "id": 1,
+        "itemid": 99401,
+        "index": 1,
+        "attrList": "Kwood:5:10,Kgold:5:10,Kfire:5:10,Kwater:5:10,Kearth:5:10",
+        "attrNum": "100:1,10:2,80:3,5:4,1:5"
+    },
+    "2": {
+        "id": 2,
+        "itemid": 99402,
+        "index": 2,
+        "attrList": "RainDefNeg:5:10,ThunderDefNeg:5:10,ThunderDefNeg:5:10,FireDefNeg:5:10,FireDefNeg:5:10,Agility:5:10,Agility:5:10,Agility:5:10",
+        "attrNum": "100:1,10:2,80:3,5:4,1:5"
+    },
+    "3": {
+        "id": 3,
+        "itemid": 99403,
+        "index": 3,
+        "attrList": "ForgetDefNeg:5:10,GfireDefNeg:5:10,SanshiDefNeg:5:10,ForgetDef:5:10,GfireDef:5:10,GfireDef:5:10,SanshiDef:5:10,SanshiDef:5:10,SanshiDef:5:10",
+        "attrNum": "100:1,10:2,80:3,5:4,1:5"
+    },
+    "4": {
+        "id": 4,
+        "itemid": 99404,
+        "index": 4,
+        "attrList": "SealDefNeg:5:10,DisorderDefNeg:5:10,SleepDefNeg:5:10,SleepDefNeg:5:10,PoisonDefNeg:5:10,SealDef:5:10,DisorderDef:5:10,DisorderDef:5:10,DisorderDef:5:10,DisorderDef:5:10",
+        "attrNum": "100:1,10:2,80:3,5:4,1:5"
+    },
+    "5": {
+        "id": 5,
+        "itemid": 99405,
+        "index": 5,
+        "attrList": "ShockDefNeg:5:10,CharmEhan:5:10,ShockDef:5:10,SleepDef:5:10,SleepDef:5:10",
+        "attrNum": "100:1,10:2,80:3,5:4,1:5"
+    },
+    "6": {
+        "id": 6,
+        "itemid": 99406,
+        "index": 6,
+        "attrList": "AdZhenJi:5:10,AdPoJia:5:10,AdZhiYu:5:10,ZhenJiFatalRate:5:10,PoJiaFatalRate:5:10,HengSaoFatalRate:5:10,PoisonDef:5:10,AdHengSao:5:10",
+        "attrNum": "100:1,10:2,80:3,5:4,1:5"
+    },
+    "7": {
+        "id": 7,
+        "itemid": 99407,
+        "index": 7,
+        "attrList": "RainFatalRate:5:10,ThunderFatalRate:5:10,FireFatalRate:5:10,WindFatalRate:5:10,RainFatalHurt:5:10,RainFatalHurt:5:10,FireFatalHurt:5:10,ThunderFatalHurt:5:10,WindFatalHurt:5:10",
+        "attrNum": "100:1,10:2,80:3,5:4,1:5"
+    },
+    "8": {
+        "id": 8,
+        "itemid": 99408,
+        "index": 8,
+        "attrList": "SanshiFatalRate:5:10,GfireFatalRate:5:10,SanshiFatalHurt:5:10,GfireFatalHurt:5:10,SanshiFatalHurt:5:10,GfireFatalHurt:5:10",
+        "attrNum": "100:1,10:2,80:3,5:4,1:5"
+    }
+}

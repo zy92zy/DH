@@ -1,0 +1,2083 @@
+{
+    "0": {
+        "level": 0,
+        "cost": "",
+        "attr": "",
+        "name": "肉体凡胎",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "1": {
+        "level": 1,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "RainDef:1",
+        "name": "凝丹期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "2": {
+        "level": 2,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "ThunderDef:1",
+        "name": "凝丹期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "3": {
+        "level": 3,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "FireDef:1",
+        "name": "凝丹期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "4": {
+        "level": 4,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "DisorderDef:1",
+        "name": "凝丹期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "5": {
+        "level": 5,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "PoisonDef:1",
+        "name": "凝丹期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "6": {
+        "level": 6,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "ForgetDef:1",
+        "name": "凝丹期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "7": {
+        "level": 7,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "GfireDef:1",
+        "name": "凝丹期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "8": {
+        "level": 8,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "SanshiDef:1",
+        "name": "凝丹期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "9": {
+        "level": 9,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "Basecon:10",
+        "name": "凝丹期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "10": {
+        "level": 10,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "Wakan:10",
+        "name": "凝丹期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "11": {
+        "level": 11,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "Power:10",
+        "name": "凝丹期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "12": {
+        "level": 12,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "Agility:10",
+        "name": "凝丹期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "13": {
+        "level": 13,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 1
+            }
+        ],
+        "attr": "RainDef:1",
+        "name": "练气期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "14": {
+        "level": 14,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "ThunderDef:1",
+        "name": "练气期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "15": {
+        "level": 15,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "FireDef:1",
+        "name": "练气期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "16": {
+        "level": 16,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "DisorderDef:1",
+        "name": "练气期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "17": {
+        "level": 17,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "PoisonDef:1",
+        "name": "练气期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "18": {
+        "level": 18,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "ForgetDef:1",
+        "name": "练气期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "19": {
+        "level": 19,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "GfireDef:1",
+        "name": "练气期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "20": {
+        "level": 20,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "SanshiDef:1",
+        "name": "练气期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "21": {
+        "level": 21,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "Basecon:15",
+        "name": "练气期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "22": {
+        "level": 22,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "Wakan:15",
+        "name": "练气期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "23": {
+        "level": 23,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "Power:15",
+        "name": "练气期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "24": {
+        "level": 24,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "Agility:15",
+        "name": "练气期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "25": {
+        "level": 25,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 2
+            }
+        ],
+        "attr": "RainDef:2",
+        "name": "塑道期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "26": {
+        "level": 26,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "ThunderDef:2",
+        "name": "塑道期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "27": {
+        "level": 27,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "FireDef:2",
+        "name": "塑道期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "28": {
+        "level": 28,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "DisorderDef:2",
+        "name": "塑道期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "29": {
+        "level": 29,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "PoisonDef:2",
+        "name": "塑道期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "30": {
+        "level": 30,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "ForgetDef:2",
+        "name": "塑道期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "31": {
+        "level": 31,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "GfireDef:2",
+        "name": "塑道期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "32": {
+        "level": 32,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "SanshiDef:2",
+        "name": "塑道期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "33": {
+        "level": 33,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "Basecon:20",
+        "name": "塑道期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "34": {
+        "level": 34,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "Wakan:20",
+        "name": "塑道期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "35": {
+        "level": 35,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "Power:20",
+        "name": "塑道期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "36": {
+        "level": 36,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "Agility:20",
+        "name": "塑道期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "37": {
+        "level": 37,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 3
+            }
+        ],
+        "attr": "RainDef:3",
+        "name": "聚魄期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "38": {
+        "level": 38,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "ThunderDef:3",
+        "name": "聚魄期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "39": {
+        "level": 39,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "FireDef:3",
+        "name": "聚魄期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "40": {
+        "level": 40,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "DisorderDef:3",
+        "name": "聚魄期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "41": {
+        "level": 41,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "PoisonDef:3",
+        "name": "聚魄期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "42": {
+        "level": 42,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "ForgetDef:3",
+        "name": "聚魄期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "43": {
+        "level": 43,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "GfireDef:3",
+        "name": "聚魄期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "44": {
+        "level": 44,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "SanshiDef:3",
+        "name": "聚魄期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "45": {
+        "level": 45,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "Basecon:25",
+        "name": "聚魄期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "46": {
+        "level": 46,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "Wakan:25",
+        "name": "聚魄期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "47": {
+        "level": 47,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "Power:25",
+        "name": "聚魄期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "48": {
+        "level": 48,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 4
+            }
+        ],
+        "attr": "Agility:25",
+        "name": "聚魄期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "49": {
+        "level": 49,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "RainDef:4",
+        "name": "混元期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "50": {
+        "level": 50,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "ThunderDef:4",
+        "name": "混元期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "51": {
+        "level": 51,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "FireDef:4",
+        "name": "混元期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "52": {
+        "level": 52,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "DisorderDef:4",
+        "name": "混元期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "53": {
+        "level": 53,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "PoisonDef:4",
+        "name": "混元期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "54": {
+        "level": 54,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "ForgetDef:4",
+        "name": "混元期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "55": {
+        "level": 55,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "GfireDef:4",
+        "name": "混元期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "56": {
+        "level": 56,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "SanshiDef:4",
+        "name": "混元期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "57": {
+        "level": 57,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "Basecon:30",
+        "name": "混元期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "58": {
+        "level": 58,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "Wakan:30",
+        "name": "混元期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "59": {
+        "level": 59,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "Power:30",
+        "name": "混元期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "60": {
+        "level": 60,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "Agility:30",
+        "name": "混元期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "61": {
+        "level": 61,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 5
+            }
+        ],
+        "attr": "RainDef:5",
+        "name": "元丹期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "62": {
+        "level": 62,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "ThunderDef:5",
+        "name": "元丹期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "63": {
+        "level": 63,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "FireDef:5",
+        "name": "元丹期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "64": {
+        "level": 64,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "DisorderDef:5",
+        "name": "元丹期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "65": {
+        "level": 65,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "PoisonDef:5",
+        "name": "元丹期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "66": {
+        "level": 66,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "ForgetDef:5",
+        "name": "元丹期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "67": {
+        "level": 67,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "GfireDef:5",
+        "name": "元丹期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "68": {
+        "level": 68,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "SanshiDef:5",
+        "name": "元丹期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "69": {
+        "level": 69,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "Basecon:35",
+        "name": "元丹期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "70": {
+        "level": 70,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "Wakan:35",
+        "name": "元丹期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "71": {
+        "level": 71,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "Power:35",
+        "name": "元丹期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "72": {
+        "level": 72,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 6
+            }
+        ],
+        "attr": "Agility:35",
+        "name": "元丹期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "73": {
+        "level": 73,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "RainDef:6",
+        "name": "虚神期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "74": {
+        "level": 74,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "ThunderDef:6",
+        "name": "虚神期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "75": {
+        "level": 75,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "FireDef:6",
+        "name": "虚神期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "76": {
+        "level": 76,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "DisorderDef:6",
+        "name": "虚神期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "77": {
+        "level": 77,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "PoisonDef:6",
+        "name": "虚神期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "78": {
+        "level": 78,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "ForgetDef:6",
+        "name": "虚神期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "79": {
+        "level": 79,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "GfireDef:6",
+        "name": "虚神期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "80": {
+        "level": 80,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "SanshiDef:6",
+        "name": "虚神期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "81": {
+        "level": 81,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "Basecon:40",
+        "name": "虚神期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "82": {
+        "level": 82,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "Wakan:40",
+        "name": "虚神期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "83": {
+        "level": 83,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "Power:40",
+        "name": "虚神期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "84": {
+        "level": 84,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 7
+            }
+        ],
+        "attr": "Agility:40",
+        "name": "虚神期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "85": {
+        "level": 85,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "RainDef:7",
+        "name": "入神期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "86": {
+        "level": 86,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "ThunderDef:7",
+        "name": "入神期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "87": {
+        "level": 87,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "FireDef:7",
+        "name": "入神期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "88": {
+        "level": 88,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "DisorderDef:7",
+        "name": "入神期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "89": {
+        "level": 89,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "PoisonDef:7",
+        "name": "入神期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "90": {
+        "level": 90,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "ForgetDef:7",
+        "name": "入神期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "91": {
+        "level": 91,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "GfireDef:7",
+        "name": "入神期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "92": {
+        "level": 92,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "SanshiDef:7",
+        "name": "入神期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "93": {
+        "level": 93,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "Basecon:45",
+        "name": "入神期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "94": {
+        "level": 94,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "Wakan:45",
+        "name": "入神期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "95": {
+        "level": 95,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "Power:45",
+        "name": "入神期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "96": {
+        "level": 96,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 8
+            }
+        ],
+        "attr": "Agility:45",
+        "name": "入神期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "97": {
+        "level": 97,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "RainDef:8",
+        "name": "仙道期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "98": {
+        "level": 98,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "ThunderDef:8",
+        "name": "仙道期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "99": {
+        "level": 99,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "FireDef:8",
+        "name": "仙道期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "100": {
+        "level": 100,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "DisorderDef:8",
+        "name": "仙道期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "101": {
+        "level": 101,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "PoisonDef:8",
+        "name": "仙道期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "102": {
+        "level": 102,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "ForgetDef:8",
+        "name": "仙道期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "103": {
+        "level": 103,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "GfireDef:8",
+        "name": "仙道期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "104": {
+        "level": 104,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "SanshiDef:8",
+        "name": "仙道期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "105": {
+        "level": 105,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "Basecon:50",
+        "name": "仙道期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "106": {
+        "level": 106,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "Wakan:50",
+        "name": "仙道期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "107": {
+        "level": 107,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "Power:50",
+        "name": "仙道期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "108": {
+        "level": 108,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 9
+            }
+        ],
+        "attr": "Agility:50",
+        "name": "仙道期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "109": {
+        "level": 109,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "RainDef:9",
+        "name": "仙尊期1重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "110": {
+        "level": 110,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "ThunderDef:9",
+        "name": "仙尊期2重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "111": {
+        "level": 111,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "FireDef:9",
+        "name": "仙尊期3重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "112": {
+        "level": 112,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "DisorderDef:9",
+        "name": "仙尊期4重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "113": {
+        "level": 113,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "PoisonDef:9",
+        "name": "仙尊期5重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "114": {
+        "level": 114,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "ForgetDef:9",
+        "name": "仙尊期6重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "115": {
+        "level": 115,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "GfireDef:9",
+        "name": "仙尊期7重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "116": {
+        "level": 116,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "SanshiDef:9",
+        "name": "仙尊期8重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "117": {
+        "level": 117,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "Basecon:50",
+        "name": "仙尊期9重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "118": {
+        "level": 118,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "Wakan:50",
+        "name": "仙尊期10重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "119": {
+        "level": 119,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "Power:50",
+        "name": "仙尊期11重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "120": {
+        "level": 120,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "Agility:50",
+        "name": "仙尊期12重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "121": {
+        "level": 121,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 10
+            }
+        ],
+        "attr": "Agility:50",
+        "name": "仙尊期13重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "122": {
+        "level": 122,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "RainDef:100",
+        "name": "仙尊期14重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "123": {
+        "level": 123,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "ThunderDef:100",
+        "name": "仙尊期15重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "124": {
+        "level": 124,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "FireDef:100",
+        "name": "仙尊期16重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "125": {
+        "level": 125,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "DisorderDef:100",
+        "name": "仙尊期17重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "126": {
+        "level": 126,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "PoisonDef:100",
+        "name": "仙尊期18重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "127": {
+        "level": 127,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "ForgetDef:100",
+        "name": "仙尊期19重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "128": {
+        "level": 128,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "GfireDef:100",
+        "name": "仙尊期20重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "129": {
+        "level": 129,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "SanshiDef:100",
+        "name": "仙尊期21重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "130": {
+        "level": 130,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "RainDef:100",
+        "name": "仙尊期22重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "131": {
+        "level": 131,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "ThunderDef:100",
+        "name": "仙尊期23重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "132": {
+        "level": 132,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "FireDef:100",
+        "name": "仙尊期24重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "133": {
+        "level": 133,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "DisorderDef:100",
+        "name": "仙尊期25重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "134": {
+        "level": 134,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "PoisonDef:100",
+        "name": "仙尊期26重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "135": {
+        "level": 135,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "ForgetDef:100",
+        "name": "仙尊期27重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "136": {
+        "level": 136,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "GfireDef:100",
+        "name": "仙尊期28重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "137": {
+        "level": 137,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "SanshiDef:100",
+        "name": "仙尊期29重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "138": {
+        "level": 138,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "RainDef:100",
+        "name": "仙尊期30重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "139": {
+        "level": 139,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "ThunderDef:100",
+        "name": "仙尊期31重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "140": {
+        "level": 140,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "FireDef:100",
+        "name": "仙尊期32重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "141": {
+        "level": 141,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "DisorderDef:100",
+        "name": "仙尊期33重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "142": {
+        "level": 142,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "PoisonDef:100",
+        "name": "仙尊期34重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "143": {
+        "level": 143,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "ForgetDef:100",
+        "name": "仙尊期35重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "144": {
+        "level": 144,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "GfireDef:100",
+        "name": "仙尊期36重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "145": {
+        "level": 145,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "SanshiDef:100",
+        "name": "仙尊期37重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "146": {
+        "level": 146,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "RainDef:100",
+        "name": "仙尊期38重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "147": {
+        "level": 147,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "ThunderDef:100",
+        "name": "仙尊期39重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    },
+    "148": {
+        "level": 148,
+        "cost": [
+            {
+                "itemid": 10018,
+                "num": 20
+            }
+        ],
+        "attr": "FireDef:100",
+        "name": "仙尊期40重",
+        "notice": "",
+        "needlv": "",
+        "needrelive": ""
+    }
+}

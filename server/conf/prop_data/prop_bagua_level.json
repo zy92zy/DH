@@ -1,0 +1,602 @@
+{
+    "1": {
+        "level": 1,
+        "gain": 0,
+        "itemid": 10006,
+        "itemnum": 2
+    },
+    "2": {
+        "level": 2,
+        "gain": 2,
+        "itemid": 10006,
+        "itemnum": 4
+    },
+    "3": {
+        "level": 3,
+        "gain": 4,
+        "itemid": 10006,
+        "itemnum": 8
+    },
+    "4": {
+        "level": 4,
+        "gain": 6,
+        "itemid": 10006,
+        "itemnum": 10
+    },
+    "5": {
+        "level": 5,
+        "gain": 8,
+        "itemid": 10006,
+        "itemnum": 12
+    },
+    "6": {
+        "level": 6,
+        "gain": 10,
+        "itemid": 10006,
+        "itemnum": 14
+    },
+    "7": {
+        "level": 7,
+        "gain": 14,
+        "itemid": 10006,
+        "itemnum": 16
+    },
+    "8": {
+        "level": 8,
+        "gain": 18,
+        "itemid": 10006,
+        "itemnum": 18
+    },
+    "9": {
+        "level": 9,
+        "gain": 25,
+        "itemid": 10006,
+        "itemnum": 20
+    },
+    "10": {
+        "level": 10,
+        "gain": 30,
+        "itemid": 10006,
+        "itemnum": 30
+    },
+    "11": {
+        "level": 11,
+        "gain": 35,
+        "itemid": 10006,
+        "itemnum": 40
+    },
+    "12": {
+        "level": 12,
+        "gain": 40,
+        "itemid": 10006,
+        "itemnum": 45
+    },
+    "13": {
+        "level": 13,
+        "gain": 45,
+        "itemid": 10006,
+        "itemnum": 50
+    },
+    "14": {
+        "level": 14,
+        "gain": 50,
+        "itemid": 10006,
+        "itemnum": 55
+    },
+    "15": {
+        "level": 15,
+        "gain": 50,
+        "itemid": 10006,
+        "itemnum": 60
+    },
+    "16": {
+        "level": 16,
+        "gain": 55,
+        "itemid": 10006,
+        "itemnum": 65
+    },
+    "17": {
+        "level": 17,
+        "gain": 60,
+        "itemid": 10006,
+        "itemnum": 70
+    },
+    "18": {
+        "level": 18,
+        "gain": 65,
+        "itemid": 10006,
+        "itemnum": 75
+    },
+    "19": {
+        "level": 19,
+        "gain": 70,
+        "itemid": 10006,
+        "itemnum": 80
+    },
+    "20": {
+        "level": 20,
+        "gain": 75,
+        "itemid": 10006,
+        "itemnum": 85
+    },
+    "21": {
+        "level": 21,
+        "gain": 80,
+        "itemid": 10006,
+        "itemnum": 90
+    },
+    "22": {
+        "level": 22,
+        "gain": 85,
+        "itemid": 10006,
+        "itemnum": 95
+    },
+    "23": {
+        "level": 23,
+        "gain": 90,
+        "itemid": 10006,
+        "itemnum": 100
+    },
+    "24": {
+        "level": 24,
+        "gain": 95,
+        "itemid": 10006,
+        "itemnum": 110
+    },
+    "25": {
+        "level": 25,
+        "gain": 100,
+        "itemid": 10006,
+        "itemnum": 120
+    },
+    "26": {
+        "level": 26,
+        "gain": 110,
+        "itemid": 10006,
+        "itemnum": 140
+    },
+    "27": {
+        "level": 27,
+        "gain": 105,
+        "itemid": 10006,
+        "itemnum": 160
+    },
+    "28": {
+        "level": 28,
+        "gain": 110,
+        "itemid": 10006,
+        "itemnum": 180
+    },
+    "29": {
+        "level": 29,
+        "gain": 115,
+        "itemid": 10006,
+        "itemnum": 200
+    },
+    "30": {
+        "level": 30,
+        "gain": 120,
+        "itemid": 10006,
+        "itemnum": 220
+    },
+    "31": {
+        "level": 31,
+        "gain": 130,
+        "itemid": 10006,
+        "itemnum": 240
+    },
+    "32": {
+        "level": 32,
+        "gain": 135,
+        "itemid": 10006,
+        "itemnum": 260
+    },
+    "33": {
+        "level": 33,
+        "gain": 140,
+        "itemid": 10006,
+        "itemnum": 280
+    },
+    "34": {
+        "level": 34,
+        "gain": 145,
+        "itemid": 10006,
+        "itemnum": 300
+    },
+    "35": {
+        "level": 35,
+        "gain": 150,
+        "itemid": 10006,
+        "itemnum": 320
+    },
+    "36": {
+        "level": 36,
+        "gain": 155,
+        "itemid": 10006,
+        "itemnum": 340
+    },
+    "37": {
+        "level": 37,
+        "gain": 160,
+        "itemid": 10006,
+        "itemnum": 360
+    },
+    "38": {
+        "level": 38,
+        "gain": 165,
+        "itemid": 10006,
+        "itemnum": 380
+    },
+    "39": {
+        "level": 39,
+        "gain": 170,
+        "itemid": 10006,
+        "itemnum": 400
+    },
+    "40": {
+        "level": 40,
+        "gain": 200,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "41": {
+        "level": 41,
+        "gain": 180,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "42": {
+        "level": 42,
+        "gain": 185,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "43": {
+        "level": 43,
+        "gain": 190,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "44": {
+        "level": 44,
+        "gain": 200,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "45": {
+        "level": 45,
+        "gain": 210,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "46": {
+        "level": 46,
+        "gain": 220,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "47": {
+        "level": 47,
+        "gain": 230,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "48": {
+        "level": 48,
+        "gain": 240,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "49": {
+        "level": 49,
+        "gain": 250,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "50": {
+        "level": 50,
+        "gain": 260,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "51": {
+        "level": 51,
+        "gain": 280,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "52": {
+        "level": 52,
+        "gain": 300,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "53": {
+        "level": 53,
+        "gain": 320,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "54": {
+        "level": 54,
+        "gain": 340,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "55": {
+        "level": 55,
+        "gain": 360,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "56": {
+        "level": 56,
+        "gain": 380,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "57": {
+        "level": 57,
+        "gain": 400,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "58": {
+        "level": 58,
+        "gain": 420,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "59": {
+        "level": 59,
+        "gain": 440,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "60": {
+        "level": 60,
+        "gain": 460,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "61": {
+        "level": 61,
+        "gain": 480,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "62": {
+        "level": 62,
+        "gain": 500,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "63": {
+        "level": 63,
+        "gain": 600,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "64": {
+        "level": 64,
+        "gain": 700,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "65": {
+        "level": 65,
+        "gain": 800,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "66": {
+        "level": 66,
+        "gain": 900,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "67": {
+        "level": 67,
+        "gain": 1000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "68": {
+        "level": 68,
+        "gain": 1100,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "69": {
+        "level": 69,
+        "gain": 1200,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "70": {
+        "level": 70,
+        "gain": 1300,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "71": {
+        "level": 71,
+        "gain": 1400,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "72": {
+        "level": 72,
+        "gain": 1500,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "73": {
+        "level": 73,
+        "gain": 1600,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "74": {
+        "level": 74,
+        "gain": 1800,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "75": {
+        "level": 75,
+        "gain": 1900,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "76": {
+        "level": 76,
+        "gain": 2000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "77": {
+        "level": 77,
+        "gain": 2100,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "78": {
+        "level": 78,
+        "gain": 2200,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "79": {
+        "level": 79,
+        "gain": 2300,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "80": {
+        "level": 80,
+        "gain": 2400,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "81": {
+        "level": 81,
+        "gain": 2500,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "82": {
+        "level": 82,
+        "gain": 2600,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "83": {
+        "level": 83,
+        "gain": 2700,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "84": {
+        "level": 84,
+        "gain": 2800,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "85": {
+        "level": 85,
+        "gain": 2900,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "86": {
+        "level": 86,
+        "gain": 3000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "87": {
+        "level": 87,
+        "gain": 3100,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "88": {
+        "level": 88,
+        "gain": 3200,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "89": {
+        "level": 89,
+        "gain": 3300,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "90": {
+        "level": 90,
+        "gain": 4000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "91": {
+        "level": 91,
+        "gain": 5000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "92": {
+        "level": 92,
+        "gain": 6000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "93": {
+        "level": 93,
+        "gain": 7000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "94": {
+        "level": 94,
+        "gain": 8000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "95": {
+        "level": 95,
+        "gain": 9000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "96": {
+        "level": 96,
+        "gain": 10000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "97": {
+        "level": 97,
+        "gain": 11000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "98": {
+        "level": 98,
+        "gain": 12000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "99": {
+        "level": 99,
+        "gain": 13000,
+        "itemid": 10006,
+        "itemnum": 500
+    },
+    "100": {
+        "level": 100,
+        "gain": 20000,
+        "itemid": 10006,
+        "itemnum": 500
+    }
+}

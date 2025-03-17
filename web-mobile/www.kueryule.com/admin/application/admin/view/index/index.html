@@ -1,0 +1,1042 @@
+{extend name="public/base" /}
+{block name='content'}
+{include file='public/content_header' /}
+<section class="content">
+
+    {if $show_notice}
+    <div class="row">
+        <div class="pad margin no-print">
+            <div class="callout callout-info">
+                <h4><i class="fa fa-info"></i> 您好,{$user.nickname|default='管理员'}:</h4>
+                {$notice_content|default=''}
+            </div>
+        </div>
+    </div>
+    {/if}
+
+
+    <div class="row">
+
+        {if $user.role.0 != 2}
+        <section class="col-lg-8 connectedSortable">
+            <div class="box box-default">
+                <div class="box-header with-border ui-sortable-handle">
+                    <h3 class="box-title">代理数据</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                <span class="info-box-icon bg-aqua">
+                    <i class="fa fa-users"></i>
+                </span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">代理用户统计</span>
+                                <span class="info-box-number">{$count_data.base_count.admin_user_count|default='0'}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                <span class="info-box-icon bg-red">
+                    <i class="fa fa-hourglass-3"></i>
+                </span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">已结算代理提成</span>
+                                <span class="info-box-number">{$count_data.base_count.forfeit_agent_money|default='0'}<sup> ¥</sup></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="info-box">
+                <span class="info-box-icon bg-green">
+                    <i class="fa fa-hourglass-start"></i>
+                </span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">未结算代理提成</span>
+                                <span class="info-box-number">{$count_data.base_count.no_agent_money|default='0'}<sup> ¥</sup></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix visible-sm-block"></div>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </section>
+        {/if}
+
+        {if $user.role.0 == 2}
+        <section class="col-lg-6 connectedSortable">
+            <div class="box box-default">
+                <div class="box-header with-border">
+                    <i class="fa fa-user"></i>
+                    <h3 class="box-title">用户信息</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                            <td>代理账号</td>
+                            <td>{$user.username}</td>
+                            <td>代充余额</td>
+                            <td>
+                                <small class="label label-success">{$user.real_money} <i class="fa fa-cny"></i>
+                                </small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>代理等级</td>
+
+                            <td>
+                                <small class="label label-primary">{$user.agent_type_id} 级代理</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>提成比例</td>
+                            <td>
+                                <small class="label label-info">{$user.push_scale} %</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>下级代理</td>
+                            <td>
+                                <small class="label label-warning">{$sub_agent_count} 人</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>下级贡献</td>
+                            <td>
+                                <small class="label label-danger">{$sub_offer_up_money} <i
+                                        class="fa fa-cny"></i></small>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>提成余额</td>
+                            <td>
+                                <small class="label label-success">{$count_data.no_clearing} <i class="fa fa-cny"></i>
+                                </small>
+                            </td>
+                            <td>
+                                <a href="http://wpa.qq.com/msgrd?v=3&uin={$count_data.parent_qq ? $count_data.parent_qq : $admin_qq}&site=qq&menu=yes"
+                                   target="_blank" class="btn btn-block fa fa-hand-o-right btn-success btn-sm"> 申请结算</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>邀请码</td>
+                            <td>
+                                <small id="target" class="label label-danger">{$user.invitecode}</small>
+                            </td>
+                            <td>
+                                <button type="button" data-clipboard-action="copy" data-clipboard-target="#target"
+                                        id="copy_btn" class="btn btn-block fa fa-copy btn-primary btn-sm"> 复制邀请码
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>联系上级</td>
+                            <td>
+                                <a href='http://wpa.qq.com/msgrd?v=3&uin={$count_data.parent_qq ? $count_data.parent_qq : $admin_qq}&site=qq&menu=yes'
+                                   class="label label-info" target="_blank"> QQ:{$count_data.parent_qq ?
+                                    $count_data.parent_qq : $admin_qq}</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>下载游戏</td>
+                            <td>
+                                <a href="http://wpa.qq.com/msgrd?v=3&uin=123&site=qq&menu=yes" target="_blank"
+                                   class="btn btn-block fa fa-cloud-download btn-success btn-sm"> 点击下载游戏</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.box-body -->
+            </div>
+        </section>
+        {else /}
+        <section class="col-lg-4 connectedSortable">
+            <div class="box box-default">
+                <div class="box-header with-border">
+                    <i class="fa fa-tag"></i>
+                    <h3 class="box-title">作者信息</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body" style="padding-bottom: 0px;">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td>特别说明</td>
+                            <td>{$admin.copying.content}</td>
+                        </tr>
+                        <tr>
+                            <td>作者信息</td>
+                            <td></h5></td>
+                        </tr>
+                        <tr>
+                            <td>系统信息</td>
+                            <td>大话西游代理后台</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- /.box -->
+        </section>
+        {/if}
+
+        <section class="col-lg-6 connectedSortable">
+            <div class="box sortable-widget">
+                <div class="box-header with-border">
+                    <h3 class="box-title">充值数据</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-aqua">
+                            <div class="inner">
+                                <h4>{$count_data.recharge.today}<sup> ¥</sup></h4>
+
+                                <p>今日充值</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="{:url('charge_record/index')}?special_create_time=d&status=1" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h4>{$count_data.recharge.yesterday}<sup> ¥</sup></h4>
+
+                                <p>昨日充值</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="{:url('charge_record/index')}?special_create_time=yesterday&status=1"
+                               class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-yellow">
+                            <div class="inner">
+                                <h4>{$count_data.recharge.month}<sup> ¥</sup></h4>
+
+                                <p>本月充值</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-person-add"></i>
+                            </div>
+                            <a href="{:url('charge_record/index')}?special_create_time=month&status=1" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-red">
+                            <div class="inner">
+                                <h4>{$count_data.recharge.last_month}<sup> ¥</sup></h4>
+
+                                <p>上月充值</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('charge_record/index')}?special_create_time=last%20month&status=1"
+                               class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-purple-active">
+                            <div class="inner">
+                                <h4>{$count_data.recharge.year}<sup> ¥</sup></h4>
+
+                                <p>今年充值</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('charge_record/index')}?special_create_time=y&status=1" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-maroon-active">
+                            <div class="inner">
+                                <h4>{$count_data.recharge.total}<sup> ¥</sup></h4>
+
+                                <p>累计充值</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('charge_record/index?status=1')}" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </section>
+
+
+        <section class="col-lg-6 connectedSortable">
+            <div class="box sortable-widget">
+                <div class="box-header with-border">
+                    <h3 class="box-title">{if $user.role.0 == 2}我的收入{else /}代理分成{/if}</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-aqua">
+                            <div class="inner">
+                                <h4>{$count_data.agent_proceeds.today}<sup> ¥</sup></h4>
+
+                                <p>今日分成</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="{:url('agent_count/index')}?special_create_time=d" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h4>{$count_data.agent_proceeds.yesterday}<sup> ¥</sup></h4>
+
+                                <p>昨日分成</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="{:url('agent_count/index')}?special_create_time=yesterday"
+                               class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-yellow">
+                            <div class="inner">
+                                <h4>{$count_data.agent_proceeds.month}<sup> ¥</sup></h4>
+
+                                <p>本月分成</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-person-add"></i>
+                            </div>
+                            <a href="{:url('agent_count/index')}?special_create_time=month" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-red">
+                            <div class="inner">
+                                <h4>{$count_data.agent_proceeds.last_month}<sup> ¥</sup></h4>
+
+                                <p>上月分成</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('agent_count/index')}?special_create_time=last%20month"
+                               class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-purple-active">
+                            <div class="inner">
+                                <h4>{$count_data.agent_proceeds.year}<sup> ¥</sup></h4>
+
+                                <p>今年分成</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('agent_count/index')}?special_create_time=y" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-maroon-active">
+                            <div class="inner">
+                                <h4>{$count_data.agent_proceeds.total}<sup> ¥</sup></h4>
+
+                                <p>累计分成</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('agent_count/index')}" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </section>
+
+
+        <section class="col-lg-6 connectedSortable">
+            <div class="box sortable-widget">
+                <div class="box-header with-border">
+                    <h3 class="box-title">账号数据</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+
+                <div class="box-body">
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-aqua">
+                            <div class="inner">
+                                <h4>{$count_data.account.today}</h4>
+
+                                <p>今日注册</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="{:url('account/index')}?special_create_time=d" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h4>{$count_data.account.yesterday}</h4>
+
+                                <p>昨日注册</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="{:url('account/index')}?special_create_time=yesterday" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-yellow">
+                            <div class="inner">
+                                <h4>{$count_data.account.month}</h4>
+
+                                <p>本月注册</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-person-add"></i>
+                            </div>
+                            <a href="{:url('account/index')}?special_create_time=m" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-red">
+                            <div class="inner">
+                                <h4>{$count_data.account.last_month}</h4>
+
+                                <p>上月注册</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('account/index')}?special_create_time=last%20month" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-purple-active">
+                            <div class="inner">
+                                <h4>{$count_data.account.year}</h4>
+
+                                <p>今年注册</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('account/index')}?special_create_time=y" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-maroon-active">
+                            <div class="inner">
+                                <h4>{$count_data.account.total}</h4>
+
+                                <p>累计注册</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('account/index')}" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </section>
+
+        <section class="col-lg-6 connectedSortable">
+            <div class="box sortable-widget">
+                <div class="box-header with-border">
+                    <h3 class="box-title">角色数据</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-aqua">
+                            <div class="inner">
+                                <h4>{$count_data.role.today}</h4>
+
+                                <p>今日创建</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="{:url('role/index')}?special_create_time=d" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h4>{$count_data.role.yesterday}</h4>
+
+                                <p>昨日创建</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="{:url('role/index')}?special_create_time=yesterday" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-yellow">
+                            <div class="inner">
+                                <h4>{$count_data.role.month}</h4>
+
+                                <p>本月创建</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-person-add"></i>
+                            </div>
+                            <a href="{:url('role/index')}?special_create_time=m" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-red">
+                            <div class="inner">
+                                <h4>{$count_data.role.last_month}</h4>
+
+                                <p>上月创建</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('role/index')}?special_create_time=last%20month" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-purple-active">
+                            <div class="inner">
+                                <h4>{$count_data.role.year}</h4>
+
+                                <p>今年创建</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('role/index')}?special_create_time=y" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xs-4">
+                        <!-- small box -->
+                        <div class="small-box bg-maroon-active">
+                            <div class="inner">
+                                <h4>{$count_data.role.total}</h4>
+
+                                <p>累计创建</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="{:url('role/index')}" class="small-box-footer">
+                                详细数据 <i class="fa fa-arrow-circle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </section>
+
+    </div>
+
+    {if $user.role.0 != 2}
+    <div class="row">
+        <div class="col-md-12">
+            <!-- AREA CHART -->
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">本月数据</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="box-body chart-responsive">
+                    <div class="chart" id="month-count" style="height: 300px;"></div>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+        <div class="col-md-12">
+            <!-- AREA CHART -->
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">上月数据</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="box-body chart-responsive">
+                    <div class="chart" id="last-month-count" style="height: 300px;"></div>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+
+    </div>
+
+    {/if}
+
+    <div class="row">
+        <section class="col-lg-12 connectedSortable" id="sortable1">
+
+            <div class="box sortable-widget" id="user_info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">访问信息</h3>
+                </div>
+                <div class="box-body">
+                    <table class="table table-bordered table-striped">
+                        <tbody>
+                        <tr>
+                            <th>用户系统</th>
+                            <td>{$system_info.user_os}</td>
+                            <th>用户IP</th>
+                            <td>{$system_info.user_ip}</td>
+                        </tr>
+
+                        <tr>
+                            <th>浏览器</th>
+                            <td>{$system_info.user_browser}</td>
+                            <th>所在城市</th>
+                            <td>{$system_info.user_ip_address}</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {if $user.role.0 != 2}
+            <div class="box sortable-widget" id="system_info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">系统信息</h3>
+                </div>
+                <div class="box-body">
+                    <table class="table table-bordered table-striped">
+                        <tbody>
+                        <tr>
+                            <th>服务器系统</th>
+                            <td>{$system_info.server_os}</td>
+                            <th>服务器IP</th>
+                            <td>{$system_info.server_ip}</td>
+                        </tr>
+
+                        <tr>
+                            <th>PHP版本</th>
+                            <td>{$system_info.php_version}</td>
+                            <th>运行内存限制</th>
+                            <td>{$system_info.memory_limit}</td>
+                        </tr>
+
+                        <tr>
+                            <th>最大文件上传限制</th>
+                            <td>{$system_info.upload_max_filesize}</td>
+                            <th>单次上传数量限制</th>
+                            <td>{$system_info.max_file_uploads}</td>
+                        </tr>
+
+                        <tr>
+                            <th>最大POST限制</th>
+                            <td>{$system_info.post_max_size}</td>
+                            <th>项目磁盘剩余容量</th>
+                            <td>{$system_info.disk_free}</td>
+                        </tr>
+
+                        <tr>
+                            <th>ThinkPHP版本</th>
+                            <td>{$system_info.think_version}</td>
+                            <th>后台系统版本</th>
+                            <td>{$system_info.admin_version}</td>
+                        </tr>
+
+                        <tr>
+                            <th>MySql版本</th>
+                            <td>{$system_info.db_version}</td>
+                            <th>PHP当前运行模式</th>
+                            <td>{$system_info.php_sapi_name}</td>
+                        </tr>
+
+                        <tr>
+                            <th>PHP当前时区</th>
+                            <td>{$system_info.timezone}</td>
+                            <th>PHP当前时间</th>
+                            <td>{$system_info.date_time}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {/if}
+        </section>
+    </div>
+</section>
+
+
+<script>
+    var passwordDanger = {$password_danger};
+    var sortableChanged = false;
+    var sortableIds = [];
+
+    $(function () {
+
+        $('.connectedSortable').sortable({
+            placeholder: 'sort-highlight',
+            connectWith: '.connectedSortable',
+            handle: '.box-header',
+            forcePlaceholderSize: true,
+            zIndex: 999999,
+            update: function (event, ui) {
+                sortableChanged = true;
+                let ids1 = $('#sortable1').sortable('toArray');
+                let ids2 = $('#sortable2').sortable('toArray');
+                $.each(ids2, function (index, item) {
+                    ids1.push(item);
+                });
+
+                sortableIds = ids1;
+                console.log(sortableIds);
+
+                /* $.ajax({
+                     type: "post",
+                     url: "",
+                     data: {image_ids},
+                     dataType: "json",
+                     success: function(result) {
+                         window.location.reload(); //后台获取到数据刷新页面
+                     }
+                 });*/
+            }
+
+        });
+        $('.connectedSortable .box-header, .connectedSortable .nav-tabs-custom').css('cursor', 'move');
+
+        //密码修改检查
+        if (parseInt(passwordDanger) === 1) {
+            layer.confirm('系统检测到超级管理员默认密码未修改，是否马上去修改？', {title: '风险提示', closeBtn: 1, icon: 7}, function () {
+                $.pjax({
+                    url: '/admin/admin_user/profile.html#privacy',
+                    container: '#pjax-container'
+                });
+                layer.closeAll();
+            });
+        }
+    });
+
+</script>
+{js href="__ADMIN_PLUGINS__/echarts/echarts.min.js" /}
+<script>
+
+
+    var monthCount = echarts.init(document.getElementById('month-count'));
+    // 指定图表的配置项和数据
+    option = {
+        title: {},
+        tooltip:
+            {
+                trigger: 'axis'
+            }
+        ,
+        legend: {
+            data: ['代理收入', '玩家充值', '注册用户', '玩家角色'],
+        }
+        ,
+        grid: {
+            left: '3%',
+            right:
+                '4%',
+            bottom:
+                '3%',
+            containLabel:
+                true
+        }
+        ,
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
+        }
+        ,
+        xAxis: {
+            type: 'category',
+            boundaryGap:
+                false,
+            data:
+                [{foreach $month.month as $item}'{$item}', {/foreach}]
+        },
+        yAxis: {
+            type: 'value'
+        }
+        ,
+        series: [
+            {
+                name: '代理收入',
+                type: 'line',
+                data: [{foreach $count_data.count_revenues.month_agent as $item} {$item}, {/foreach}]
+            },
+            {
+                name: '玩家充值',
+                type: 'line',
+                data: [{foreach $count_data.count_revenues.month_recharge as $item} {$item}, {/foreach}]
+            },
+            {
+                name: '注册用户',
+                type: 'line',
+                data: [{foreach $count_data.count_revenues.month_account as $item} {$item}, {/foreach}]
+            },
+            {
+                name: '玩家角色',
+                type: 'line',
+                data: [{foreach $count_data.count_revenues.month_role as $item} {$item}, {/foreach}]
+            },
+
+        ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    monthCount.setOption(option);
+
+</script>
+<script>
+
+
+    var lastMonthCount = echarts.init(document.getElementById('last-month-count'));
+    // 指定图表的配置项和数据
+    option = {
+        tooltip:
+            {
+                trigger: 'axis'
+            }
+        ,
+
+        legend: {
+            data: ['代理收入', '玩家充值', '注册用户', '玩家角色'],
+        }
+        ,
+        grid: {
+            left: '3%',
+            right:
+                '4%',
+            bottom:
+                '3%',
+            containLabel:
+                true
+        }
+        ,
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
+        }
+        ,
+        xAxis: {
+            type: 'category',
+            boundaryGap:
+                false,
+            data:
+                [{foreach $month.last_month as $item}'{$item}', {/foreach}]
+        },
+        yAxis: {
+            type: 'value'
+        }
+        ,
+        series: [
+            {
+                name: '代理收入',
+                type: 'line',
+                data: [{foreach $count_data.count_revenues.last_month_agent as $item} {$item}, {/foreach}]
+            },
+            {
+                name: '玩家充值',
+                type: 'line',
+                data: [{foreach $count_data.count_revenues.last_month_recharge as $item} {$item}, {/foreach}]
+            },
+            {
+                name: '注册用户',
+                type: 'line',
+                data: [{foreach $count_data.count_revenues.last_month_account as $item} {$item}, {/foreach}]
+            },
+            {
+                name: '玩家角色',
+                type: 'line',
+                data: [{foreach $count_data.count_revenues.last_month_role as $item} {$item}, {/foreach}]
+            },
+
+        ],
+
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    lastMonthCount.setOption(option);
+</script>
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+<script src="https://www.layuicdn.com/layer/layer.js"></script>
+<script>
+    $(document).ready(function () {
+        var clipboard = new Clipboard('#copy_btn');
+        clipboard.on('success', function (e) {
+            layer.msg("复制成功", {icon: 1});
+            e.clearSelection();
+        });
+    });
+</script>
+{/block}

@@ -1,0 +1,146 @@
+{extend name="public/base" /}
+{block name='content'}
+{include file='public/content_header' /}
+<!--数据列表页面-->
+<section class="content">
+
+    <!--顶部搜索筛选-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-body">
+                    <form class="form-inline searchForm" id="searchForm" action="{:url('index')}" method="GET">
+
+                        <div class="form-group">
+                            <input id="_keywords" value="{$_keywords ? $_keywords : '' ;}"
+                                   name="_keywords" id="_keywords" class="form-control"
+                                   placeholder="角色/账号">
+                        </div>
+
+                        <div class="form-group">
+                            <select name="serverid" id="serverid" class="form-control index-order">
+                                <option value="">选择大区</option>
+                                {foreach $serv_list as $key => $item}
+                                <option value="{$item.sid}">{$item.name}</option>
+                                {/foreach}
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select name="type" id="type" class="form-control index-order">
+                                <option value="">类型</option>
+                                {foreach name='type_name' id='item' key='key'}
+                                    <option value="{$key}" {if isset($type)&& $type==$key}selected{/if}>{$item}</option>
+                                {/foreach}
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <input readonly value="{$day ?? '' ;}"
+                                   name="day" id="day" class="form-control indexSearchDatetimeRange" placeholder="创建时间">
+                        </div>
+                        <script>
+                            laydate.render({elem: '#day', format: 'yyyyMMdd' });
+                        </script>
+
+
+                        <div class="form-group">
+                            <button class="btn btn-sm btn-primary" type="submit"><i class="fa fa-search"></i> 查询
+                            </button>
+                        </div>
+                        <div class="form-group">
+                            <button onclick="exportData()" class="btn btn-sm btn-warning exportData" type="button"><i
+                                    class="fa fa-search"></i> 导出
+                            </button>
+                        </div>
+                        <div class="form-group">
+                            <button onclick="clearSearchForm()" class="btn btn-sm btn-default" type="button"><i
+                                    class="fa  fa-eraser"></i> 清空查询
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+
+                <!--数据列表顶部-->
+                <div class="box-header">
+                    <div>
+
+
+                        <a class="btn btn-success btn-sm ReloadButton" data-toggle="tooltip" title="刷新">
+                            <i class="fa fa-refresh"></i> 刷新
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box-body table-responsive">
+                    <table class="table table-hover table-bordered datatable" width="100%">
+                        <thead>
+                        <tr>
+                            <th>类型</th>
+                            <th>账号</th>
+                            <th>昵称</th>
+                            <th>大区</th>
+                            <th>时间</th>
+                            <th>{$type_val_name[0]|default='参数1'}</th>
+                            <th>{$type_val_name[1]|default='参数2'}</th>
+                            <th>{$type_val_name[2]|default='参数3'}</th>
+                            <th>说明</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {foreach name='data' id='item'}
+                        <tr>
+                            <td>{$type_name[$item.type]|default=$item.type}</td>
+                            <td>{$item.account}</td>
+                            <td>{$item.name}</td>
+                            <td>{$serv_list[$item.serverid]['name']}</td>
+                            <td>{$item.time}</td>
+                            <td>
+                                <?php 
+                                    if($item['type']==9 && isset($item_data[$item['val1']]))
+                                        echo $item['val1'].':'.$item_data[$item['val1']];
+                                    else
+                                        echo $item['val1'];
+                                ?>
+                            </td>
+                            <td>{$item.val2}</td>
+                            <td>{$item.val3}</td>
+                            <td>{$item.msg}</td>
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 数据列表底部 -->
+                <div class="box-footer">
+                    {$page|raw}
+                    <label class="control-label pull-right" style="margin-right: 10px; font-weight: 100;">
+                        <small>共{$total}条记录</small>&nbsp;
+                        <small>每页显示</small>
+                        &nbsp;
+                        <select class="input-sm" onchange="changePerPage(this)">
+                            <option value="10" {if $admin.per_page==10}selected{/if}>10</option>
+                            <option value="20" {if $admin.per_page==20}selected{/if}>20</option>
+                            <option value="30" {if $admin.per_page==30}selected{/if}>30</option>
+                            <option value="50" {if $admin.per_page==50}selected{/if}>50</option>
+                            <option value="100" {if $admin.per_page==100}selected{/if}>100</option>
+                        </select>
+                        &nbsp;
+                        <small>条记录</small>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{/block}
+

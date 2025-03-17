@@ -1,0 +1,166 @@
+{extend name="public/base" /}
+{block name='content'}
+{include file='public/content_header' /}
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-body">
+                    <form class="form-inline searchForm" id="searchForm" action="{:url('gmlist')}" method="GET">
+                        <div class="form-group">
+                            <input value="{$_keywords ? $_keywords : '' ;}"
+                                   name="_keywords" id="_keywords" class="form-control" placeholder="用户/内容">
+                        </div>
+
+                        <div class="form-group">
+                            <select name="type" id="type" class="form-control">
+                                <option value="">全部类型</option>
+                                <option value="1"
+                                        {if isset($type)&&
+                                        $type=='1'}selected{/if}
+                                >发送仙玉
+                                </option>
+                                <option value="2"
+                                        {if isset($type)&&
+                                        $type=='2'}selected{/if}
+                                >发送经验
+                                </option>
+                                <option value="3"
+                                        {if isset($type)&&
+                                        $type=='3'}selected{/if}
+                                >发送物品
+                                </option>
+                                <option value="4"
+                                        {if isset($type)&&
+                                        $type=='4'}selected{/if}
+                                >设置公告
+                                </option>
+                                <option value="5"
+                                        {if isset($type)&&
+                                        $type=='5'}selected{/if}
+                                >玩家禁言
+                                </option>
+                                <option value="6"
+                                        {if isset($type)&&
+                                        $type=='6'}selected{/if}
+                                >解除禁言
+                                </option>
+                                <option value="7"
+                                        {if isset($type)&&
+                                        $type=='7'}selected{/if}
+                                >发送通知
+                                </option>
+                                <option value="8"
+                                        {if isset($type)&&
+                                        $type=='8'}selected{/if}
+                                >仙玉充值
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select name="status" id="status" class="form-control">
+                                <option value="">全部状态</option>
+                                <option value="0"
+                                        {if isset($status)&&
+                                        $status=='0'}selected{/if}
+                                >已成功
+                                </option>
+                                <option value="1"
+                                        {if isset($status)&&
+                                        $status=='1'}selected{/if}
+                                >未成功
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <input readonly value="{$create_time ?? '' ;}"
+                                   name="create_time" id="create_time" class="form-control indexSearchDatetimeRange"
+                                   placeholder="操作日期">
+                        </div>
+                        <script>
+                            laydate.render({
+                                elem: '#create_time'
+                                , range: true
+                                , type: 'datetime'
+                            });
+                        </script>
+
+                        <div class="form-group">
+                            <button class="btn btn-sm btn-primary" type="submit"><i class="fa fa-search"></i> 查询
+                            </button>
+                        </div>
+                        <div class="form-group">
+                            <button onclick="clearSearchForm()" class="btn btn-sm btn-default" type="button"><i
+                                    class="fa  fa-eraser"></i> 清空
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-body table-responsive">
+                    <table class="table table-hover table-bordered datatable" width="100%">
+
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>操作用户</th>
+                            <th>操作类型</th>
+                            <th>操作内容</th>
+                            <th>状态</th>
+                            <th>操作时间</th>
+                            <th>成功时间</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        {foreach name='data' id='item'}
+                        <tr>
+                            <td>{$item.id}</td>
+                            <td>{$item->username}</td>
+                            <td>{$item.type_text}</td>
+                            <td>{$item.content}</td>
+                            <td>
+                                <span class="label label-{$item.status ? 'danger' : 'success'}">{$item.status_text}</span>
+                            </td>
+                            <td>{$item.create_time}</td>
+                            <td>{$item.update_time}</td>
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 数据列表底部 -->
+                <div class="box-footer">
+                    {$page|raw}
+                    <label class="control-label pull-right" style="margin-right: 10px; font-weight: 100;">
+                        <small>共{$total}条记录</small>&nbsp;
+                        <small>每页显示</small>
+                        &nbsp;
+                        <select class="input-sm" onchange="changePerPage(this)">
+                            <option value="10" {if $admin.per_page==10}selected{/if}>10</option>
+                            <option value="20" {if $admin.per_page==20}selected{/if}>20</option>
+                            <option value="30" {if $admin.per_page==30}selected{/if}>30</option>
+                            <option value="50" {if $admin.per_page==50}selected{/if}>50</option>
+                            <option value="100" {if $admin.per_page==100}selected{/if}>100</option>
+                        </select>
+                        &nbsp;
+                        <small>条记录</small>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{/block}
+

@@ -1,0 +1,382 @@
+{
+    "1": {
+        "kill": 1,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 1
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了首杀奖励",
+        "jifen": 1,
+        "exp": 10000000
+    },
+    "2": {
+        "kill": 2,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 1
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了双杀奖励",
+        "jifen": 2,
+        "exp": 11000001
+    },
+    "3": {
+        "kill": 3,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 1
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了三杀奖励",
+        "jifen": 3,
+        "exp": 12000002
+    },
+    "4": {
+        "kill": 4,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 1
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了四杀奖励",
+        "jifen": 4,
+        "exp": 13000003
+    },
+    "5": {
+        "kill": 5,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 1
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了五杀龙珠奖励",
+        "jifen": 5,
+        "exp": 20000004
+    },
+    "6": {
+        "kill": 6,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 2
+            },
+            {
+                "itemid": 10017,
+                "num": 1
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }			
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了六杀奖励",
+        "jifen": 6,
+        "exp": 21000005
+    },
+    "7": {
+        "kill": 7,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 2
+            },
+            {
+                "itemid": 10017,
+                "num": 2
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了七杀奖励",
+        "jifen": 7,
+        "exp": 22000006
+    },
+    "8": {
+        "kill": 8,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 2
+            },
+            {
+                "itemid": 10017,
+                "num": 2
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了八杀奖励",
+        "jifen": 8,
+        "exp": 23000007
+    },
+    "9": {
+        "kill": 9,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 2
+            },
+            {
+                "itemid": 10017,
+                "num": 2
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了九杀奖励",
+        "jifen": 9,
+        "exp": 24000008
+    },
+    "10": {
+        "kill": 10,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 2
+            },
+            {
+                "itemid": 10017,
+                "num": 2
+            },
+            {
+                "itemid": 10006,
+                "num": 1
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十杀龙珠奖励",
+        "jifen": 10,
+        "exp": 30000009
+    },
+    "11": {
+        "kill": 11,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 3
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 2
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十一杀奖励",
+        "jifen": 11,
+        "exp": 31000010
+    },
+    "12": {
+        "kill": 12,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 3
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 2
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十二杀奖励",
+        "jifen": 12,
+        "exp": 32000011
+    },
+    "13": {
+        "kill": 13,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 3
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 2
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十三杀奖励",
+        "jifen": 13,
+        "exp": 33000012
+    },
+    "14": {
+        "kill": 14,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 3
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 2
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十四杀奖励",
+        "jifen": 14,
+        "exp": 34000013
+    },
+    "15": {
+        "kill": 15,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 3
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 2
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十五杀龙珠奖励",
+        "jifen": 15,
+        "exp": 40000014
+    },
+    "16": {
+        "kill": 16,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 3
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 3
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十六杀奖励",
+        "jifen": 16,
+        "exp": 41000015
+    },
+    "17": {
+        "kill": 17,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 4
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 3
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十七杀奖励",
+        "jifen": 17,
+        "exp": 42000016
+    },
+    "18": {
+        "kill": 18,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 4
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 3
+            }	
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十八杀奖励",
+        "jifen": 18,
+        "exp": 43000017
+    },
+    "19": {
+        "kill": 19,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 4
+            },
+            {
+                "itemid": 10017,
+                "num": 3
+            },
+            {
+                "itemid": 10006,
+                "num": 3
+            }
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了十九杀奖励",
+        "jifen": 19,
+        "exp": 44000018
+    },
+    "20": {
+        "kill": 20,
+        "item": [
+            {
+                "itemid": 10007,
+                "num": 4
+            },
+            {
+                "itemid": 10017,
+                "num": 4
+            },
+            {
+                "itemid": 10006,
+                "num": 4
+            }
+        ],
+        "notice": "[NAME1]杀死了[NAME2]获得了二十杀龙珠奖励",
+        "jifen": 20,
+        "exp": 100000019
+    }
+}

@@ -1,0 +1,17 @@
+/node_modules
+/runtime
+*.png
+*.plist
+*.meta
+/log
+/package.json
+/package-lock.json
+/dist
+/工具/jiami
+/工具/秘钥
+*.zip
+*.rar
+/工具
+/*.bat
+/部署教程.txt
+/etc

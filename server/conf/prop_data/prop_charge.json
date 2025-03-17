@@ -1,0 +1,83 @@
+{
+    "1": {
+        "id": 1,
+        "goodsid": 1,
+        "money": 30,
+        "name": "30元仙玉礼包",
+        "jade": 300000,
+        "ex_jade": 1,
+        "notice": ""
+    },
+    "2": {
+        "id": 2,
+        "goodsid": 2,
+        "money": 100,
+        "name": "100元仙玉礼包",
+        "jade": 980000,
+        "ex_jade": 1,
+        "notice": ""
+    },
+    "3": {
+        "id": 3,
+        "goodsid": 3,
+        "money": 200,
+        "name": "200元仙玉礼包",
+        "jade": 1280000,
+        "ex_jade": 1,
+        "notice": ""
+    },
+    "4": {
+        "id": 4,
+        "goodsid": 4,
+        "money": 328,
+        "name": "328元仙玉礼包",
+        "jade": 3280000,
+        "ex_jade": 1,
+        "notice": ""
+    },
+    "5": {
+        "id": 5,
+        "goodsid": 5,
+        "money": 648,
+        "name": "648元仙玉礼包",
+        "jade": 6480000,
+        "ex_jade": 1,
+        "notice": ""
+    },
+    "6": {
+        "id": 6,
+        "goodsid": 6,
+        "money": 998,
+        "name": "998元仙玉礼包",
+        "jade": 9980000,
+        "ex_jade": 1,
+        "notice": ""
+    },
+    "7": {
+        "id": 7,
+        "goodsid": 7,
+        "money": 1998,
+        "name": "1998元仙玉礼包",
+        "jade": 19980000,
+        "ex_jade": 1,
+        "notice": ""
+    },
+    "8": {
+        "id": 8,
+        "goodsid": 8,
+        "money": 2998,
+        "name": "2998元仙玉礼包",
+        "jade": 29980000,
+        "ex_jade": 1,
+        "notice": ""
+    },
+    "9": {
+        "id": 9,
+        "goodsid": 9,
+        "money": 5000,
+        "name": "5000元仙玉礼包",
+        "jade": 50000000,
+        "ex_jade": 1,
+        "notice": ""
+    }
+}

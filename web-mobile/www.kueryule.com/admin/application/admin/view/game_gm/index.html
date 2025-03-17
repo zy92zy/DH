@@ -1,0 +1,254 @@
+{extend name='public/base' /}
+{block name='content'}
+{include file='public/content_header' /}
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-primary">
+                <!-- 表单 -->
+                <form id="dataForm" class="form-horizontal dataForm" enctype="multipart/form-data">
+                    <!-- 表单字段区域 -->
+                    <div class="box-body">
+
+                        <div class="form-group">
+                            <label for="password" class="col-sm-2 control-label">GM密码</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="password" name="password" value=""
+                                       placeholder="请输入GM密码" type="text" class="form-control field-text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="server_id" class="col-sm-2 control-label">选择大区</label>
+                            <div class="col-sm-10 col-md-4">
+                                <select name="server_id" id="server_id" class="form-control field-select"
+                                        data-placeholder="选择大区">
+                                    {foreach $serv_list as $key => $item}
+                                    <option value="{$item.sid}">{$item.name}</option>
+                                    {/foreach}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="role_id" class="col-sm-2 control-label">角色ID</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="role_id" name="role_id" value=""
+                                       placeholder="请输入角色ID" type="number" class="form-control field-text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label  class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 col-md-4">
+                                <table class="table table-bordered text-center">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <button type="button" id="not_speek" class="btn btn-block btn-danger btn-sm">角 色 禁 言</button>
+                                        </td>
+                                        <td>
+                                            <button type="button" id="can_speek" class="btn btn-block btn-success btn-sm">解 除 禁 言</button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="item_id" class="col-sm-2 control-label">物品</label>
+                            <div class="col-sm-10 col-md-4">
+                                <select name="item_id" id="item_id" class="form-control field-select"
+                                        data-placeholder="选择物品">
+                                    <option value="0">选择物品</option>
+                                    {foreach $item_list as $key => $item}
+                                    <option value="{$item.id}">{$item.name}</option>
+                                    {/foreach}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gold_num" class="col-sm-2 control-label">发送数量</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="gold_num" name="gold_num" value=""
+                                       placeholder="请输入发送数量" type="number" class="form-control field-text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label  class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 col-md-4">
+                                <table class="table table-bordered text-center">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <button type="button" id="recharge_gold"
+                                                    class="btn btn-block btn-success btn-sm">充 值 仙 玉
+                                            </button>
+                                        </td>
+                                        <td>
+                                            <button type="button" id="recharge_exp"
+                                                    class="btn btn-block bg-purple btn-sm">充 值 经 验
+                                            </button>
+                                        </td>
+                                        <td>
+                                            <button type="button" id="mail_item" class="btn btn-block btn-info btn-sm">发 送 物 品</button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ip_address" class="col-sm-2 control-label">选择称号</label>
+                            <div class="col-sm-10 col-md-4">
+                                <select name="title_id" id="title_id" class="form-control field-select"
+                                        data-placeholder="选择称号">
+                                    <option value="0">选择称号</option>
+                                    {foreach $title_list as $key => $item}
+                                    <option value="{$item.id}">{$item.name}</option>
+                                    {/foreach}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 col-md-4">
+                                <button type="button" id="send_title" class="btn btn-block btn-success btn-sm">添 加 称 号</button>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ip_address" class="col-sm-2 control-label">IP地址</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="ip_address" name="ip_address" value=""
+                                       placeholder="请输入IP地址" type="text" class="form-control field-text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 col-md-4">
+                                <button type="button" id="frozen_ip" class="btn btn-block btn-danger btn-sm">禁 封 I P</button>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ip_address" class="col-sm-2 control-label">玩家账号</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="account_id" name="ip_address" value=""
+                                       placeholder="请输入账号" type="text" class="form-control field-text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 col-md-4">
+                                <button type="button" id="frozen_account" class="btn btn-block btn-danger btn-sm">禁 封 账 号</button>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="inform_content" class="col-sm-2 control-label">系统通知</label>
+                            <div class="col-sm-10 col-md-4">
+                                <textarea id="inform_content" style="width: 100%"  placeholder="请输入通知内容" rows="6"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="times" class="col-sm-2 control-label">通知次数</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="times" name="times" value=""
+                                       placeholder="请输入次数（-1为永久）" type="number" class="form-control field-text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="interval" class="col-sm-2 control-label">间隔时间</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="interval" name="interval" value=""
+                                       placeholder="请输入间隔时间（单位:秒）" type="number" class="form-control field-text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inform_type" class="col-sm-2 control-label">通知类型</label>
+                            <div class="col-sm-10 col-md-4">
+                                <select name="inform_type" id="inform_type" class="form-control">
+                                    <option value="0">选择通知类型</option>
+                                    <option value="1">走马灯</option>
+                                    <option value="2">聊天框</option>
+                                    <option value="3">走马灯+聊天框</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 col-md-4">
+                                <button type="button" id="inform" class="btn btn-block bg-maroon btn-sm">发 送 通 知</button>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="notice_content" class="col-sm-2 control-label">公告</label>
+                            <div class="col-sm-10 col-md-4">
+                                <textarea id="notice_content" style="width: 100%"  placeholder="请输入公告内容" rows="6"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 col-md-4">
+                                <button type="button" id="notice" class="btn btn-block btn-success btn-sm">设 置 公 告</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="gold_num" class="col-sm-2 control-label">发送数量</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="gold_num" name="gold_num" value=""
+                                       placeholder="请输入发送数量" type="number" class="form-control field-text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inform_content" class="col-sm-2 control-label">GM等级</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="gmlevel" name="gmlevel" value=""
+                                       placeholder="gm等级" type="number" class="form-control field-text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 col-md-4">
+                                <button type="button" id="setgm" class="btn btn-block btn-success btn-sm">设 置 GM</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $('#item_id').select2();
+    $('#title_id').select2();
+    $('#gold_id').select2();
+
+    var GM_URL = "{:url('GameGm/index')}";
+</script>
+
+<script>
+
+
+
+</script>
+{js href="__ADMIN_JS__/game_gm.js" /}
+{/block}

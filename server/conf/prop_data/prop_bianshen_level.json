@@ -1,0 +1,813 @@
+{
+    "1": {
+        "1": {
+            "level": 1,
+            "desc": "提高强力克金属性2%",
+            "attr": "Kgold:2",
+            "exp": 10,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "2": {
+            "level": 2,
+            "desc": "提高强力克金属性4%",
+            "attr": "Kgold:4",
+            "exp": 20,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "3": {
+            "level": 3,
+            "desc": "提高强力克金属性6%",
+            "attr": "Kgold:6",
+            "exp": 30,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "4": {
+            "level": 4,
+            "desc": "提高强力克金属性10%",
+            "attr": "Kgold:10",
+            "exp": 40,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "5": {
+            "level": 5,
+            "desc": "提高强力克金属性14%",
+            "attr": "Kgold:14",
+            "exp": 50,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "6": {
+            "level": 6,
+            "desc": "提高强力克金属性18%",
+            "attr": "Kgold:18",
+            "exp": 60,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "7": {
+            "level": 7,
+            "desc": "提高强力克金属性25%",
+            "attr": "Kgold:25",
+            "exp": 70,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "8": {
+            "level": 8,
+            "desc": "提高强力克金属性30%",
+            "attr": "Kgold:30",
+            "exp": 80,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "9": {
+            "level": 9,
+            "desc": "提高强力克金属性40%",
+            "attr": "Kgold:40",
+            "exp": 90,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "10": {
+            "level": 10,
+            "desc": "提高强力克金属性50%",
+            "attr": "Kgold:50",
+            "exp": 100,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+		"11": {
+            "level": 11,
+            "desc": "提高强力克金属性55%",
+            "attr": "Kgold:55",
+            "exp": 110,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "12": {
+            "level": 12,
+            "desc": "提高强力克金属性60%",
+            "attr": "Kgold:60",
+            "exp": 120,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "13": {
+            "level": 13,
+            "desc": "提高强力克金属性65%",
+            "attr": "Kgold:65",
+            "exp": 130,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "14": {
+            "level": 14,
+            "desc": "提高强力克金属性70%",
+            "attr": "Kgold:70",
+            "exp": 140,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "15": {
+            "level": 15,
+            "desc": "提高强力克金属性75%",
+            "attr": "Kgold:75",
+            "exp": 150,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "16": {
+            "level": 16,
+            "desc": "提高强力克金属性80%",
+            "attr": "Kgold:80",
+            "exp": 160,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "17": {
+            "level": 17,
+            "desc": "提高强力克金属性85%",
+            "attr": "Kgold:85",
+            "exp": 170,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "18": {
+            "level": 18,
+            "desc": "提高强力克金属性90%",
+            "attr": "Kgold:90",
+            "exp": 180,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "19": {
+            "level": 19,
+            "desc": "提高强力克金属性95%",
+            "attr": "Kgold:95",
+            "exp": 190,
+            "itemid": 98068,
+            "itemexp": 10
+        },
+        "20": {
+            "level": 20,
+            "desc": "提高强力克金属性100%",
+            "attr": "Kgold:100",
+            "exp": 200,
+            "itemid": 98068,
+            "itemexp": 10
+        }
+    },
+    "2": {
+        "1": {
+            "level": 1,
+            "desc": "提高强力克木属性2%",
+            "attr": "Kwood:2",
+            "exp": 10,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "2": {
+            "level": 2,
+            "desc": "提高强力克木属性4%",
+            "attr": "Kwood:4",
+            "exp": 20,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "3": {
+            "level": 3,
+            "desc": "提高强力克木属性6%",
+            "attr": "Kwood:6",
+            "exp": 30,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "4": {
+            "level": 4,
+            "desc": "提高强力克木属性10%",
+            "attr": "Kwood:10",
+            "exp": 40,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "5": {
+            "level": 5,
+            "desc": "提高强力克木属性14%",
+            "attr": "Kwood:14",
+            "exp": 50,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "6": {
+            "level": 6,
+            "desc": "提高强力克木属性18%",
+            "attr": "Kwood:18",
+            "exp": 60,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "7": {
+            "level": 7,
+            "desc": "提高强力克木属性25%",
+            "attr": "Kwood:25",
+            "exp": 70,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "8": {
+            "level": 8,
+            "desc": "提高强力克木属性30%",
+            "attr": "Kwood:30",
+            "exp": 80,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "9": {
+            "level": 9,
+            "desc": "提高强力克木属性40%",
+            "attr": "Kwood:40",
+            "exp": 90,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "10": {
+            "level": 10,
+            "desc": "提高强力克木属性50%",
+            "attr": "Kwood:50",
+            "exp": 100,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+		"11": {
+            "level": 11,
+            "desc": "提高强力克木属性55%",
+            "attr": "Kwood:55",
+            "exp": 110,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "12": {
+            "level": 12,
+            "desc": "提高强力克木属性60%",
+            "attr": "Kwood:60",
+            "exp": 20,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "13": {
+            "level": 13,
+            "desc": "提高强力克木属性65%",
+            "attr": "Kwood:65",
+            "exp": 130,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "14": {
+            "level": 14,
+            "desc": "提高强力克木属性70%",
+            "attr": "Kwood:70",
+            "exp": 140,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "15": {
+            "level": 15,
+            "desc": "提高强力克木属性75%",
+            "attr": "Kwood:75",
+            "exp": 150,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "16": {
+            "level": 16,
+            "desc": "提高强力克木属性80%",
+            "attr": "Kwood:80",
+            "exp": 160,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "17": {
+            "level": 17,
+            "desc": "提高强力克木属性85%",
+            "attr": "Kwood:85",
+            "exp": 170,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "18": {
+            "level": 18,
+            "desc": "提高强力克木属性90%",
+            "attr": "Kwood:90",
+            "exp": 180,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "19": {
+            "level": 19,
+            "desc": "提高强力克木属性95%",
+            "attr": "Kwood:95",
+            "exp": 190,
+            "itemid": 98069,
+            "itemexp": 10
+        },
+        "20": {
+            "level": 20,
+            "desc": "提高强力克木属性100%",
+            "attr": "Kwood:100",
+            "exp": 200,
+            "itemid": 98069,
+            "itemexp": 10
+        }
+    },
+    "3": {
+        "1": {
+            "level": 1,
+            "desc": "提高强力克水属性2%",
+            "attr": "Kwater:2",
+            "exp": 10,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "2": {
+            "level": 2,
+            "desc": "提高强力克水属性4%",
+            "attr": "Kwater:4",
+            "exp": 20,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "3": {
+            "level": 3,
+            "desc": "提高强力克水属性6%",
+            "attr": "Kwater:6",
+            "exp": 30,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "4": {
+            "level": 4,
+            "desc": "提高强力克水属性10%",
+            "attr": "Kwater:10",
+            "exp": 40,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "5": {
+            "level": 5,
+            "desc": "提高强力克水属性14%",
+            "attr": "Kwater:14",
+            "exp": 50,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "6": {
+            "level": 6,
+            "desc": "提高强力克水属性18%",
+            "attr": "Kwater:18",
+            "exp": 60,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "7": {
+            "level": 7,
+            "desc": "提高强力克水属性25%",
+            "attr": "Kwater:25",
+            "exp": 70,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "8": {
+            "level": 8,
+            "desc": "提高强力克水属性30%",
+            "attr": "Kwater:30",
+            "exp": 80,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "9": {
+            "level": 9,
+            "desc": "提高强力克水属性40%",
+            "attr": "Kwater:40",
+            "exp": 90,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "10": {
+            "level": 10,
+            "desc": "提高强力克水属性50%",
+            "attr": "Kwater:50",
+            "exp": 100,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+		"11": {
+            "level": 11,
+            "desc": "提高强力克水属性55%",
+            "attr": "Kwater:55",
+            "exp": 110,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "12": {
+            "level": 12,
+            "desc": "提高强力克水属性60%",
+            "attr": "Kwater:60",
+            "exp": 120,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "13": {
+            "level": 13,
+            "desc": "提高强力克水属性65%",
+            "attr": "Kwater:65",
+            "exp": 130,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "14": {
+            "level": 14,
+            "desc": "提高强力克水属性70%",
+            "attr": "Kwater:70",
+            "exp": 140,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "15": {
+            "level": 15,
+            "desc": "提高强力克水属性75%",
+            "attr": "Kwater:75",
+            "exp": 150,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "16": {
+            "level": 16,
+            "desc": "提高强力克水属性80%",
+            "attr": "Kwater:80",
+            "exp": 160,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "17": {
+            "level": 17,
+            "desc": "提高强力克水属性85%",
+            "attr": "Kwater:85",
+            "exp": 170,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "18": {
+            "level": 18,
+            "desc": "提高强力克水属性90%",
+            "attr": "Kwater:90",
+            "exp": 180,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "19": {
+            "level": 19,
+            "desc": "提高强力克水属性95%",
+            "attr": "Kwater:95",
+            "exp": 190,
+            "itemid": 98070,
+            "itemexp": 10
+        },
+        "20": {
+            "level": 20,
+            "desc": "提高强力克水属性100%",
+            "attr": "Kwater:100",
+            "exp": 200,
+            "itemid": 98070,
+            "itemexp": 10
+        }
+    },
+    "4": {
+        "1": {
+            "level": 1,
+            "desc": "提高强力克火属性2%",
+            "attr": "Kfire:2",
+            "exp": 10,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "2": {
+            "level": 2,
+            "desc": "提高强力克火属性4%",
+            "attr": "Kfire:4",
+            "exp": 20,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "3": {
+            "level": 3,
+            "desc": "提高强力克火属性6%",
+            "attr": "Kfire:6",
+            "exp": 30,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "4": {
+            "level": 4,
+            "desc": "提高强力克火属性10%",
+            "attr": "Kfire:10",
+            "exp": 40,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "5": {
+            "level": 5,
+            "desc": "提高强力克火属性14%",
+            "attr": "Kfire:14",
+            "exp": 50,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "6": {
+            "level": 6,
+            "desc": "提高强力克火属性18%",
+            "attr": "Kfire:18",
+            "exp": 60,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "7": {
+            "level": 7,
+            "desc": "提高强力克火属性25%",
+            "attr": "Kfire:25",
+            "exp": 70,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "8": {
+            "level": 8,
+            "desc": "提高强力克火属性30%",
+            "attr": "Kfire:30",
+            "exp": 80,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "9": {
+            "level": 9,
+            "desc": "提高强力克火属性40%",
+            "attr": "Kfire:40",
+            "exp": 90,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "10": {
+            "level": 10,
+            "desc": "提高强力克火属性50%",
+            "attr": "Kfire:50",
+            "exp": 100,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+		"11": {
+            "level": 11,
+            "desc": "提高强力克火属性55%",
+            "attr": "Kfire:55",
+            "exp": 110,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "12": {
+            "level": 12,
+            "desc": "提高强力克火属性60%",
+            "attr": "Kfire:60",
+            "exp": 120,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "13": {
+            "level": 13,
+            "desc": "提高强力克火属性65%",
+            "attr": "Kfire:65",
+            "exp": 130,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "14": {
+            "level": 14,
+            "desc": "提高强力克火属性70%",
+            "attr": "Kfire:70",
+            "exp": 140,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "15": {
+            "level": 15,
+            "desc": "提高强力克火属性75%",
+            "attr": "Kfire:75",
+            "exp": 150,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "16": {
+            "level": 16,
+            "desc": "提高强力克火属性80%",
+            "attr": "Kfire:80",
+            "exp": 160,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "17": {
+            "level": 17,
+            "desc": "提高强力克火属性85%",
+            "attr": "Kfire:85",
+            "exp": 170,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "18": {
+            "level": 18,
+            "desc": "提高强力克火属性90%",
+            "attr": "Kfire:90",
+            "exp": 180,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "19": {
+            "level": 19,
+            "desc": "提高强力克火属性95%",
+            "attr": "Kfire:95",
+            "exp": 190,
+            "itemid": 98071,
+            "itemexp": 10
+        },
+        "20": {
+            "level": 20,
+            "desc": "提高强力克火属性100%",
+            "attr": "Kfire:100",
+            "exp": 200,
+            "itemid": 98071,
+            "itemexp": 10
+        }
+    },
+    "5": {
+        "1": {
+            "level": 1,
+            "desc": "提高强力克土属性2%",
+            "attr": "Kearth:2",
+            "exp": 10,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "2": {
+            "level": 2,
+            "desc": "提高强力克土属性4%",
+            "attr": "Kearth:4",
+            "exp": 20,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "3": {
+            "level": 3,
+            "desc": "提高强力克土属性6%",
+            "attr": "Kearth:6",
+            "exp": 30,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "4": {
+            "level": 4,
+            "desc": "提高强力克土属性10%",
+            "attr": "Kearth:10",
+            "exp": 40,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "5": {
+            "level": 5,
+            "desc": "提高强力克土属性14%",
+            "attr": "Kearth:14",
+            "exp": 50,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "6": {
+            "level": 6,
+            "desc": "提高强力克土属性18%",
+            "attr": "Kearth:18",
+            "exp": 60,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "7": {
+            "level": 7,
+            "desc": "提高强力克土属性25%",
+            "attr": "Kearth:25",
+            "exp": 70,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "8": {
+            "level": 8,
+            "desc": "提高强力克土属性30%",
+            "attr": "Kearth:30",
+            "exp": 80,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "9": {
+            "level": 9,
+            "desc": "提高强力克土属性40%",
+            "attr": "Kearth:40",
+            "exp": 90,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "10": {
+            "level": 10,
+            "desc": "提高强力克土属性50%",
+            "attr": "Kearth:50",
+            "exp": 100,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+		"11": {
+            "level": 11,
+            "desc": "提高强力克土属性55%",
+            "attr": "Kearth:55",
+            "exp": 110,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "12": {
+            "level": 12,
+            "desc": "提高强力克土属性60%",
+            "attr": "Kearth:60",
+            "exp": 120,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "13": {
+            "level": 13,
+            "desc": "提高强力克土属性65%",
+            "attr": "Kearth:65",
+            "exp": 130,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "14": {
+            "level": 14,
+            "desc": "提高强力克土属性70%",
+            "attr": "Kearth:70",
+            "exp": 140,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "15": {
+            "level": 15,
+            "desc": "提高强力克土属性75%",
+            "attr": "Kearth:75",
+            "exp": 150,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "16": {
+            "level": 16,
+            "desc": "提高强力克土属性80%",
+            "attr": "Kearth:80",
+            "exp": 160,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "17": {
+            "level": 17,
+            "desc": "提高强力克土属性85%",
+            "attr": "Kearth:85",
+            "exp": 170,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "18": {
+            "level": 18,
+            "desc": "提高强力克土属性90%",
+            "attr": "Kearth:90",
+            "exp": 180,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "19": {
+            "level": 19,
+            "desc": "提高强力克土属性95%",
+            "attr": "Kearth:95",
+            "exp": 190,
+            "itemid": 98072,
+            "itemexp": 10
+        },
+        "20": {
+            "level": 20,
+            "desc": "提高强力克土属性100%",
+            "attr": "Kearth:100",
+            "exp": 200,
+            "itemid": 98072,
+            "itemexp": 10
+        }
+		
+    }
+}
